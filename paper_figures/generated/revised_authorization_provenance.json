@@ -1,0 +1,81 @@
+{
+  "source_sha256": "094526cea777f72f3d661773ed30bfe4235a07e1aab33fc210f5ce6277731e61",
+  "test_prompts": 352,
+  "curves": "Observed soundness-completeness pairs connected in saved threshold order; no envelope or smoothing.",
+  "reported_comparisons": "At each quoted soundness target, maximize completeness over evaluated thresholds meeting that target on test.",
+  "main_domains": [
+    "pure responses",
+    "all response lotteries, gain margin 0.5"
+  ],
+  "main_display_soundness_percent": [
+    90,
+    100
+  ],
+  "main_curve_linewidth_points": 1.1,
+  "error_bars": "None; descriptive outcomes on the fixed test set, not a population confidence statement.",
+  "thresholds_refitted": false,
+  "text_font": "Computer Modern Roman (bundled cmr10 TrueType); Computer Modern math",
+  "percent_format": "Bare tick values with (%) in the axis label",
+  "main_guides": {
+    "major_percent": [
+      90,
+      95,
+      100
+    ],
+    "minor_step_percent": 1,
+    "vertical_guides_percent": [
+      95,
+      99
+    ]
+  },
+  "harm_panel_view": {
+    "loss_range": [
+      0,
+      0.245
+    ],
+    "completeness_percent_range": [
+      0,
+      45
+    ],
+    "endpoint_note": "All six saved curves attain 100% at loss 0.25"
+  },
+  "margin_view": "Full saved gain domain retained, including zero completeness at small margins",
+  "test_checkpoints": {
+    "0.95": {
+      "learned_weight": [
+        0.9545454545454546,
+        0.8011363636363636
+      ],
+      "best_single": [
+        0.9517045454545454,
+        0.7869318181818182
+      ],
+      "weighted_binary": [
+        0.9517045454545454,
+        0.48579545454545453
+      ],
+      "count_rule": [
+        0.9517045454545454,
+        0.17613636363636365
+      ]
+    },
+    "0.99": {
+      "learned_weight": [
+        0.9914772727272727,
+        0.6051136363636364
+      ],
+      "best_single": [
+        0.9943181818181818,
+        0.4659090909090909
+      ],
+      "weighted_binary": [
+        0.9914772727272727,
+        0.08806818181818182
+      ],
+      "count_rule": [
+        0.9914772727272727,
+        0.036931818181818184
+      ]
+    }
+  }
+}

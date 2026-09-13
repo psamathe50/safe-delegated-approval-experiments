@@ -1,0 +1,5 @@
+# Exact versions used for paper-figure rendering and release verification.
+numpy==1.24.2
+scipy==1.13.1
+matplotlib==3.9.4
+Pillow==11.3.0
