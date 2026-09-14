@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control"
+message: "If you use this code, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Collina
+    given-names: Natalie
+  - family-names: Goel
+    given-names: Surbhi
+  - family-names: Roth
+    given-names: Aaron
+  - family-names: Sengupta
+    given-names: Sikata
+repository-code: "https://github.com/psamathe50/safe-delegated-approval-experiments"
+license: MIT
+version: 0.1.0
+date-released: 2026-09-14

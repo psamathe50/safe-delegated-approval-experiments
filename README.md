@@ -111,3 +111,24 @@ rendered figures. PDF files are not compared byte-for-byte because creation
 timestamps and other PDF metadata can differ across platforms; PNG renderings
 are used for the visual comparison instead. Core numerical and plotting
 packages are pinned in `requirements.txt`.
+
+## License and citation
+
+The source code is released under the [MIT License](LICENSE). If you use this
+repository, please cite the accompanying paper:
+
+```bibtex
+@misc{collina2026delegating,
+  title  = {Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control},
+  author = {Natalie Collina and Surbhi Goel and Aaron Roth and Sikata Sengupta},
+  year   = {2026}
+}
+```
+
+Machine-readable citation metadata is provided in [`CITATION.cff`](CITATION.cff).
+The citation will be updated with the paper URL and arXiv identifier when the
+preprint is available.
+
+The MIT License applies to the source code. The bundled derived score archives
+remain subject to the terms of the underlying RewardBench 2 and StrongREJECT
+datasets and the evaluated model providers.
