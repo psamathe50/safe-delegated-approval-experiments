@@ -86,6 +86,7 @@ artifact.
   outputs
 - `scripts/compare_figures.py` -- cross-platform visual comparison
 - `scripts/check_public_release.py` -- portability and credential scan
+- `THIRD_PARTY_NOTICES.md` -- upstream data sources, licenses, and citations
 - `.github/workflows/` -- fast verification and full-reproduction workflows
 
 For experiment definitions, exact lottery-domain calculations, train/
@@ -131,4 +132,6 @@ preprint is available.
 
 The MIT License applies to the source code. The bundled derived score archives
 remain subject to the terms of the underlying RewardBench 2 and StrongREJECT
-datasets and the evaluated model providers.
+datasets and the evaluated model providers. See
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for source revisions,
+upstream licenses, and requested citations.
